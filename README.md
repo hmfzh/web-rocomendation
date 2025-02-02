@@ -1,4 +1,4 @@
-# WEB REKOMENDASI SISTEM DAN LATIHAN FISIK
+# WEB REKOMENDASI DIET DAN LATIHAN FISIK
 
 ## Authors
 - [@hmfzh](https://github.com/hmfzh)
