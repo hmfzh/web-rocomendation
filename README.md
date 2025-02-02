@@ -1,6 +1,6 @@
 # WEB REKOMENDASI SISTEM DAN LATIHAN FISIK
 
-## Authors 
+## Authors
 - [@hmfzh](https://github.com/hmfzh)
   
 ## Tech Stack  
@@ -8,8 +8,8 @@
 - **CSS**  
 - **Python Flask**  
 
-## Implementasi Journal   
-[Journal](https://socjs.telkomuniversity.ac.id/ojs/index.php/indojc/article/view/959)
+## Implementasi Jurnal   
+[Jurnal](https://socjs.telkomuniversity.ac.id/ojs/index.php/indojc/article/view/959)
 
 ## Sumber Dataset
 [Diet](https://www.kaggle.com/datasets/izharalam150/diet-recommendation)
