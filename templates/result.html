@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1>Diet and Physical Exercise Recommendation</h1>
+      <hr />
+      <h2>Personal Data :</h2>
+      <p>Age : {{age}}</p>
+      <p>Vegetarian (0) / Non-Vegetarian (1) : {{veg}}</p>
+      <p>Weight : {{weight}} (kg)</p>
+      <p>Height : {{height}} (cm)</p>
+      <p>Mealtime Category : {{rekomendasi}}</p>
+      <p>BMI : {{bmi}}</p>
+      <p>{{hasilbmi}}!</p>
+
+      <hr />
+      <h2>Diet Recommendation :</h2>
+      {% for item in diet_recommendations %}
+      <li>{{ item }}</li>
+      {% endfor %}
+
+      <hr />
+      <h2>Physical Exercise Recommendation :</h2>
+      <p>{{ exercise_recommendations }}</p>
+      <p>{{ exercise_recommendationslain }}</p>
+    </div>
+
+    <div
+      class="text-center p-3"
+      style="background-color: rgba(255, 255, 255, 0.2)"
+    >
+      © 2024 Muhammad Ilham Hafizha
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
